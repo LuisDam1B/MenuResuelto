@@ -7,8 +7,7 @@
     <item android:title="Info"
         android:id="@+id/menuInfo"
         android:icon="@android:drawable/ic_menu_info_details"
-        app:showAsAction="ifRoom|collapseActionView"
-        android:actionViewClass="androidx.appcompat.widget.SearchView"/>
+        app:showAsAction="ifRoom|collapseActionView"/>
     <group android:id="@+id/grupo1">
         <item android:id="@+id/item1"
             android:title="Tamaño 12"
