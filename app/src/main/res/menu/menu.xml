@@ -2,8 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
+
+    <item android:title="Info"
+        android:id="@+id/menuInfo"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="androidx.appcompat.widget.SearchView"/>
     <group android:id="@+id/grupo1">
         <item android:id="@+id/item1"
             android:title="Tamaño 12"
