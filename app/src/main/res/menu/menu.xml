@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+    <group android:id="@+id/grupo1">
+        <item android:id="@+id/item1"
+            android:title="Tamaño 12"
+            app:showAsAction="ifRoom|withText"/>
+        <item android:id="@+id/item2"
+            android:title="Tamaño 18"
+            app:showAsAction="ifRoom|withText"/>
+        <item android:id="@+id/item3"
+            android:title="Tamaño 14"
+            app:showAsAction="ifRoom|withText"/>
+    </group>
+    <item android:id="@+id/item4"
+        android:title="estilos...">
+        <menu>
+            <item android:id="@+id/estiloItem1"
+                android:title="Negrita"/>
+            <item android:id="@+id/estiloItem2"
+                android:title="Cursiva"/>
+
+        </menu>
+    </item>
+
+
+
+
+
+
+</menu>
